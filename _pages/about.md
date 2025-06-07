@@ -23,7 +23,7 @@ I am passionate about advancing the frontiers of computer architecture, with a d
 
 Current Projects
 ------
-<img src="../images/pad view of chip.jpg" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 225px;">
+<img src="../images/padviewofchip.jpg" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 300px;">
 **Open Accelerators**<br>
 To practice my RTL design and to master HPC algorithms ranging from linear algebra to partial differential equations, I am working on an open-source platform for engineers to share their accelerator designs for the scientific computing community to easily interface their applications with.
 
@@ -32,7 +32,7 @@ Inspired by [Google TPUv1](../files/TPU%20ISCA%202017.pdf), I designed my own Te
 
 Selected Experience
 ------
-<img src="../images/IMG_4043.jpg" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 225px;">
+<img src="../images/IMG_4043.jpg" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 300px;">
 **FPGA Engineer Intern**, _Applied Research Laboratories_<br>
 Designing RTL in VHDL for accelerating signal processing and digital communication applications.
 
