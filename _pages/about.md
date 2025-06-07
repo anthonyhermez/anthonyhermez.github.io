@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src="../images/500x300.png" alt="My Avatar" style="float: right; margin-right: 500px; width: 300x;">
+<img src="../images/500x300.png" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 120px;">
 
 👨🏻‍💻 I’m a final year M.S. ECE student at the University of Texas at Austin.
 
