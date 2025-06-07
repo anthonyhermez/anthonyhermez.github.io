@@ -9,7 +9,7 @@ redirect_from:
 
 <img src="../images/IMG_4041.jpg" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 350px;">
 
-👨🏻‍💻 I’m a final year M.S. ECE student at the [University of Texas at Austin](https://www.utexas.edu/).
+👨🏻‍💻 I’m a final year M.S. ECE student at [The University of Texas at Austin](https://www.utexas.edu/).
 
 🔬 In undergrad, I double majored in [ECE](https://www.ece.utexas.edu/) and [Mathematics](https://math.utexas.edu/) with a Minor in [Computational Engineering](https://oden.utexas.edu/).
 
