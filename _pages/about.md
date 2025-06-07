@@ -7,7 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<img src="../images/500x300.png" alt="My Avatar" style="float: right; margin-right: 500px; width: 300x;">
+
+👨🏻‍💻 I’m a final year M.S. ECE student at the University of Texas at Austin.
+
+🔬 In undergrad, I double majored in ECE and Mathematics with a minor in Computational Engineering.
+
+📚 I’m currently working as a teaching assistant for Intro to Embedded Systems.
+
+🎻 I also play cello for the UT University Orchestra and am learning Arabic and Spanish.
 
 A data-driven personal website
 ======
