@@ -22,13 +22,13 @@ repository               : "anthonyhermez/anthonyhermez.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "IMG_3444.jpg"
+  avatar           : "IMG_4042.jpg"
   name             : "Anthony Hermez"
   pronouns         : # example: "she/her"  
   bio              : "Computer Engineer with passions for Computer Architecture, Digital Circuits, and High Performance Computing"
   location         : "Austin, Texas"
   employer         : "The University of Texas at Austin"
-  employer_link    : "https://www.ece.utexas.edu/"
+  employer_link    : "https://www.utexas.edu/"
   uri              : # URL
   email            : "official.anthonyhermez@gmail.com" 
 
