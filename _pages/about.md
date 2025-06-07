@@ -7,15 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-<img src="../images/IMG_3444.jpg" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 500px;">
+<img src="../images/IMG_4041.jpg" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 350px;">
 
 👨🏻‍💻 I’m a final year M.S. ECE student at the University of Texas at Austin.
 
-🔬 In undergrad, I double majored in ECE and Mathematics with a minor in Computational Engineering.
+🔬 In undergrad, I double majored in [ECE](https://www.ece.utexas.edu/) and [Mathematics](https://math.utexas.edu/) with a Minor in [Computational Engineering](https://oden.utexas.edu/).
 
-📚 I’m currently working as a teaching assistant for Intro to Embedded Systems.
+📚 I’m currently working as the head TA for [Intro to Embedded Systems](https://users.ece.utexas.edu/~valvano/mspm0/).
 
-🎻 I also play cello for the UT University Orchestra and am learning Arabic and Spanish.
+🎻 I also play cello for the [UT University Orchestra](https://music.utexas.edu/ensembles/university-orchestra) and am learning Arabic and Spanish.
 
 A data-driven personal website
 ======
