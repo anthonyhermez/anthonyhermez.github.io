@@ -23,7 +23,7 @@ I am passionate about advancing the frontiers of computer architecture, with a d
 
 Current Projects
 ------
-<img src="../images/padviewofchip.jpg" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 300px;">
+<img src="../images/padviewofchip.png" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 300px;">
 **Open Accelerators**<br>
 To practice my RTL design and to master HPC algorithms ranging from linear algebra to partial differential equations, I am working on an open-source platform for engineers to share their accelerator designs for the scientific computing community to easily interface their applications with.
 
