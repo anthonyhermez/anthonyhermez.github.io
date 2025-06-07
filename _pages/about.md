@@ -32,7 +32,7 @@ Inspired by [Google TPUv1](../files/TPU%20ISCA%202017.pdf), I designed my own Te
 
 Selected Experience
 ------
-<img src="../images/IMG_4043.jpg" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 300px;">
+<img src="../images/IMG_4044.jpg" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 300px;">
 **FPGA Engineer Intern**, _Applied Research Laboratories_<br>
 Designing RTL in VHDL for accelerating signal processing and digital communication applications.
 
