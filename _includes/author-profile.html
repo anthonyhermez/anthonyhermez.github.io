@@ -32,7 +32,7 @@
       {% if author.employer %}
       <!-- <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li> -->
       <li><a href="{{ author.employer_link }}"><i class="fas fa-fw fa-building-columns icon-pad-right"
-            aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: author.employer }}</a>
+            aria-hidden="true"></i>{{ author.employer }}</a>
       </li>
       {% endif %}
       {% if author.uri %}
