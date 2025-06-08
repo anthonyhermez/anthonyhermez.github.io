@@ -39,7 +39,7 @@ Designing RTL in VHDL for accelerating signal processing and digital communicati
 **SoC Design Verification Engineer Intern**, _Apple_<br>
 Developed a complete UVM testbench for a distributed MMU IP in SystemVerilog.
 
-**Functional Validation Engineer Intern**, _Texas Instruments_<br>
+**Validation Engineer Intern**, _Texas Instruments_<br>
 Designed and simulated an analog circuit that isolates high voltage from a temperature forcing unit.
 
 **Embedded Software Engineer Intern**, _Applied Research Laboratories_<br>
