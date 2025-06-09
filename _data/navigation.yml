@@ -29,6 +29,7 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
+  # new
   - title: "Manifesting My Goals"
     url: /manifesting_my_goals/
 
