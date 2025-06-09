@@ -8,7 +8,7 @@ This is a concise list of the technical courses I have taken at UT Austin.
 
 _Note_: I have renamed some classes in this list to better reflect their content. To see the correct name, click [here](./coursework_by_semester).
 
-[Go back](../education/).
+[Go back](../education/)
 
 Graduate Coursework
 ------
@@ -53,3 +53,5 @@ Mathematics Undergraduate Coursework
 - Differential Equations w/ Linear Algebra
 - Discrete Mathematics
 - Seq, Series, & Multivariable Calculus
+
+[Go back](../education/)

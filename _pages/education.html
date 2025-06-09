@@ -22,7 +22,15 @@ GPA: 3.9 <em>out of</em> 4.0</p>
 <h3>Computational Science and Engineering Certificate</h3>
 <p><strong>The University of Texas at Austin</strong><br>
 May 2025<br>
-{% for post in site.education reversed %}
+<!-- {% for post in site.education reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
+{% assign first_edu = site.education[0] %}
+{% assign second_edu = site.education[1] %}
+
+<!-- Display the first item -->
+{% include archive-single.html post=first_edu %}
+
+<!-- Display the second item -->
+{% include archive-single.html post=second_edu %}
 

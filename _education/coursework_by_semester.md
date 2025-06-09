@@ -6,6 +6,8 @@ permalink: /education/coursework_by_semester
 
 This is a complete breakdown all the courses I have taken at UT Austin.
 
+[Go back](../education/)
+
 Fall 2025
 ------
 - ASIC Design Lab 2, _ECE 382M_
@@ -77,3 +79,5 @@ Fall 2021
 - Sequences, Series, and Multivariable Calculus, _M 408D_
 - Physical Activity in Society, _SOC 302P_
 - Survey from Renaissance to Modern Art, _ARH 303_
+
+[Go back](../education/)
