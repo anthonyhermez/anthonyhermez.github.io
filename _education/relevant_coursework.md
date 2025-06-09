@@ -8,7 +8,7 @@ This is a concise list of the technical courses I have taken at UT Austin.
 
 _Note_: I have renamed some classes in this list to better reflect their content. To see the correct name, click [here](./coursework_by_semester).
 
-ECE Graduate Coursework
+Graduate Coursework
 ------
 - ASIC Design Lab 2
 - HW/SW Co-Design in High Performance Computing
