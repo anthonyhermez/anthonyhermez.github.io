@@ -227,6 +227,15 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  education:
+    output: true
+    permalink: /:collection/:path/
+  experience:
+    output: true
+    permalink: /:collection/:path/
+  manifesting_my_goals:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -282,6 +291,30 @@ defaults:
       type: talks
     values:
       layout: talk
+      author_profile: true
+      share: true
+  # _education
+  - scope:
+      path: ""
+      type: education
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _experience
+  - scope:
+      path: ""
+      type: experience
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _manifesting_my_goals
+  - scope:
+      path: ""
+      type: manifesting_my_goals
+    values:
+      layout: single
       author_profile: true
       share: true
 
