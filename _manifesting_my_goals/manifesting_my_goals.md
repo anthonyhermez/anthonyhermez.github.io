@@ -7,4 +7,4 @@ redirect_from:
   - /manifesting_my_goals
 ---
 
-Test2
+<div align="center"> “A person is limited only by the thoughts that he chooses.” <br>— James Allen,<em>As a Man Thinketh</em> </div>
