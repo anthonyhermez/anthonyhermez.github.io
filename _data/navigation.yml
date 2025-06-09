@@ -13,7 +13,8 @@ main:
     url: /my_life/
 
   - title: "CV"
-    url: /cv/
+    # url: /cv/
+    url: /files/AnthonyHermez_Resume_Fall2025.pdf
 
   - title: "Teaching"
     url: /teaching/ 
