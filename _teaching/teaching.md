@@ -10,7 +10,7 @@ redirect_from:
 Teaching Assistant
 ------
 **Intro to Embedded Systems** (ECE 319K/H)<br>
-Graduate Teaching Assistant (F25)
+Graduate Teaching Assistant (F25)<br>
 Undergraduate Teaching Assistant (S25, F24, S24, S23)<br>
 
 **Intro to Professional Engineering** (ECE 209P)<br>

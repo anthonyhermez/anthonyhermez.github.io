@@ -6,9 +6,11 @@ author_profile: true
 ---
 
 {% include base_path %}
-{% for post in site.education reversed %}
+<!-- {% for post in site.education reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
+{% assign coursework = site.education | where: "title", "Relevant Coursework" | first %}
+{% include archive-single.html post=coursework %}
 
 <h2>Master of Science in Electrical and Computer Engineering</h2>
 <p><strong>The University of Texas at Austin</strong><br>
@@ -25,3 +27,6 @@ GPA: 3.9 <em>out of</em> 4.0</p>
 <h3>Computational Science and Engineering Certificate</h3>
 <p><strong>The University of Texas at Austin</strong><br>
 May 2025<br>
+
+{% assign coursework2 = site.education | where: "title", "Coursework by Semester" | first %}
+{% include archive-single.html post=coursework2 %}
