@@ -37,7 +37,7 @@ Hello.
 
 Undergraduate Research Assistant
 ------
-**The University of Texas at Austin** Austin, TX<br>
+**The University of Texas at Austin** (Austin, TX)<br>
 January 2022 - December 2022<br>
 _Python, Atomic Force Microscope, Magnetic Devices_<br><br>
 Hello.
