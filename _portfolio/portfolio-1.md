@@ -1,6 +1,6 @@
 ---
 title: "Tensor Processing Unit ASIC"
-excerpt: "An implementation of Google's TPUv1 on a low-power ASIC.<br/><img src='/images/padviewofchip.png'>"
+excerpt: "An implementation of Google's TPUv1 on a low-power ASIC.<br/><img src='/images/padviewofchip.png' width='500'>"
 collection: portfolio
 ---
 
