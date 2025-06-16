@@ -1,6 +1,6 @@
 ---
-title: "Tensor Processing Unit ASIC"
-excerpt: "An implementation of Google's TPUv1 on a low-power ASIC.<br/><img src='/images/500x300.png'>"
+title: "Cache Coherency Simulator"
+excerpt: "A message-passing implementation of the MESI protocol for an arbitrary interconnect network.<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 

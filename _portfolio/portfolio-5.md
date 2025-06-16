@@ -1,6 +1,6 @@
 ---
-title: "Tensor Processing Unit ASIC"
-excerpt: "An implementation of Google's TPUv1 on a low-power ASIC.<br/><img src='/images/500x300.png'>"
+title: "High-Speed Arithmetic Logic Unit"
+excerpt: "Transitor-level implementation of a 22-instruction ALU.<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 

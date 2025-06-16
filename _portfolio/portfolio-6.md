@@ -1,6 +1,6 @@
 ---
-title: "Tensor Processing Unit ASIC"
-excerpt: "An implementation of Google's TPUv1 on a low-power ASIC.<br/><img src='/images/500x300.png'>"
+title: "Discount Pac-Man"
+excerpt: "A full-stack implementation of retro Pac-Man.<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 

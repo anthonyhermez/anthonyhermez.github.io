@@ -1,6 +1,6 @@
 ---
-title: "Tensor Processing Unit ASIC"
-excerpt: "An implementation of Google's TPUv1 on a low-power ASIC.<br/><img src='/images/500x300.png'>"
+title: "Parallel Matrix Multiplication Implementation"
+excerpt: "An optimized parallel matrix multiplication algorithm using abstract algebra.<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
