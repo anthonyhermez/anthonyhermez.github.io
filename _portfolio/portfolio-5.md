@@ -1,6 +1,6 @@
 ---
 title: "High-Speed Arithmetic Logic Unit"
-excerpt: "Transitor-level implementation of a 22-instruction ALU.<br/><img src='/images/500x300.png'>"
+excerpt: "Transitor-level implementation of a 22-instruction ALU.<br/><img src='/images/alu_pnr.png'>"
 collection: portfolio
 ---
 

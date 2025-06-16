@@ -1,6 +1,6 @@
 ---
 title: "Analog Binary Matrix Multiplication Algorithm"
-excerpt: "Developed a novel numerical algorithm for binary matrix multiplication to be implemented on a crossbar array of Magnetic Tunnel Junction (MTJ) nanodevices.<br/><img src='/images/500x300.png'>"
+excerpt: "A novel numerical algorithm for binary matrix multiplication to be implemented on a crossbar array of Magnetic Tunnel Junction (MTJ) nanodevices.<br/><img src='/images/binary_mm.png'>"
 collection: portfolio
 ---
 

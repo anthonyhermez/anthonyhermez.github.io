@@ -1,6 +1,6 @@
 ---
 title: "Cache Coherency Simulator"
-excerpt: "A message-passing implementation of the MESI protocol for an arbitrary interconnect network.<br/><img src='/images/500x300.png'>"
+excerpt: "A message-passing implementation of the MESI protocol for an arbitrary interconnect network.<br/><img src='/images/cache_sim.png'>"
 collection: portfolio
 ---
 

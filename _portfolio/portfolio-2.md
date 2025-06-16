@@ -1,6 +1,6 @@
 ---
 title: "Ordinary Differential Equation HW Accelerator"
-excerpt: "ODE HW Accelerator on on a Zynq UltraScale+ FPGA interfaced with physics application.<br/><img src='/images/500x300.png'>"
+excerpt: "ODE HW Accelerator on a Zynq UltraScale+ FPGA interfaced with physics application.<br/><img src='/images/ode_accelerator_vivado.png'>"
 collection: portfolio
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Laser Tag on a Budget"
-excerpt: "A fully functioning 4-player laser tag game with a $60 budget.<br/><img src='/images/500x300.png'>"
+excerpt: "A fully functioning 4-player laser tag game with a $60 budget.<br/><img src='/images/laser_tag.jpg'>"
 collection: portfolio
 ---
 

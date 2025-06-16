@@ -1,6 +1,6 @@
 ---
 title: "Parallel Matrix Multiplication Implementation"
-excerpt: "An optimized parallel matrix multiplication algorithm using abstract algebra.<br/><img src='/images/500x300.png'>"
+excerpt: "An optimized parallel matrix multiplication algorithm using abstract algebra.<br/><img src='/images/parallel_mm.png'>"
 collection: portfolio
 ---
 
