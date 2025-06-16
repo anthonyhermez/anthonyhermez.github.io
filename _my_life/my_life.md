@@ -7,4 +7,14 @@ redirect_from:
   - /my_life
 ---
 
-Test3
+Bio
+------
+TODO: Bio
+
+Involvements
+------
+TODO: Involvements
+
+Hobbies
+------
+TODO: Hobbies
