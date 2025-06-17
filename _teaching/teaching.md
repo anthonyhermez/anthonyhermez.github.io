@@ -12,12 +12,16 @@ Teaching Assistant
 **Intro to Embedded Systems** (ECE 319K/H)<br>
 Graduate Teaching Assistant (F25)<br>
 Undergraduate Teaching Assistant (S25, F24, S24, S23)<br>
+_C, ARM Assembly, UART, SPI, I/O Interfacing_<br>
+[Course Website](https://users.ece.utexas.edu/~valvano/mspm0/)<br>
 
 **Intro to Professional Engineering** (ECE 209P)<br>
 Undergraduate Teaching Assistant (S24, S23)<br>
+_Technical Writing, Engineering Ethics, Professional Development_<br>
 
 **Intro to Computing** (ECE 306)<br>
-Undergraduate Teaching Assistant (F22)
+Undergraduate Teaching Assistant (F22)<br>
+_Microarchitecture, Assembly, Digital Logic_
 
 Mentorships
 ------
@@ -26,6 +30,7 @@ _Fall 2024_<br>
 
 **First-Year Interest Group Mentor**<br>
 _Fall 2022_, _Fall 2023_<br>
+_Awarded 2022 FIG Mentor of the Year_
 
 Talks
 ------
