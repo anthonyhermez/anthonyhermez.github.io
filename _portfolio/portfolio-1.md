@@ -4,16 +4,25 @@ excerpt: "An implementation of Google's TPUv1 from RTL to GDSII on a low-power A
 collection: portfolio
 ---
 
-(GitHub Repo)[https://github.com/anthonyhermez/Google-TPU]<br>
+[GitHub Repo](https://github.com/anthonyhermez/Google-TPU)<br>
 
 Design Description
 ------
+Hello.<br>
+**Skills:** _Hello, hi, hey_
 
 Technical Details
 ------
+Hello.
 
 Deliverables
 ------
+- Hello
+- Hi
+- Hey
 
 Citations
 ------
+- Hello
+- Hi
+- Hey
