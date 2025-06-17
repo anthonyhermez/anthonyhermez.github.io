@@ -9,9 +9,9 @@ redirect_from:
 
 Bio
 ------
-I'm a first-generation Lebanese-American graduate student at The University of Texas at Austin, pursuing a M.S. degree in Electrical and Computer Engineering with a focus on computer architecture and digital design. My passion lies in understanding how systems work at the hardware level and contributing to the development of efficient, high-performance computing technologies.<br>
+I'm a last-year graduate student at The University of Texas at Austin, pursuing a M.S. degree in Electrical and Computer Engineering with a focus on computer architecture and digital design. My passions lies in understanding how systems work at the logic level and contributing to the development of efficient, high-performance computing technologies.<br>
 
-Being a first-gen college student has motivated me to give back by supporting other students navigating similar paths. I’ve worked as a teaching assistant for over 1000 students and have mentored over 100 fellow students, helping them build confidence in technical and professional skills, as well as navigate the challenges of engineering coursework.
+Being a first-gen college student has motivated me to give back by supporting other students navigating similar paths. I’ve worked as a teaching assistant for over 1000 students and have mentored over 100 undergraduates, helping them build confidence in technical and professional skills, as well as navigate the challenges of engineering coursework.
 
 I spend my time on personal projects that explore the intersection of high-performance computing and digital design. I'm especially interested in understanding the underlying math behind high-performance applications to better exploit tradeoffs in the hardware design. I am currently trying to teach myself Functional Analysis using [Dr. Todd Abogast's online notes](https://users.oden.utexas.edu/~arbogast/appMath08c.pdf).
 
