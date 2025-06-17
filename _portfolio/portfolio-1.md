@@ -21,3 +21,7 @@ Citations
 ------
 - [Google TPUv1](../files/TPU%20ISCA%202017.pdf)
 - [Understanding Matrix Multiplication on a Weight-Stationary Systolic Architecture](https://telesens.co/2018/07/30/systolic-architectures/)
+
+Acknowledgments
+------
+Thank you Vivek for helping with the TPU Assembler.
