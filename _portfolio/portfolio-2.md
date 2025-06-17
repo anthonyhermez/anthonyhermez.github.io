@@ -4,7 +4,7 @@ excerpt: "ODE HW Accelerator on a Zynq UltraScale+ FPGA interfaced with physics 
 collection: portfolio
 ---
 
-[Go back](../portfolio/)
+[Go back](../)
 
 Design Description
 ------

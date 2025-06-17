@@ -5,7 +5,7 @@ collection: portfolio
 ---
 
 [GitHub Repo](https://github.com/anthonyhermez/Google-TPU)<br>
-[Go back](../portfolio/)
+[Go back](../)
 
 Design Description
 ------
