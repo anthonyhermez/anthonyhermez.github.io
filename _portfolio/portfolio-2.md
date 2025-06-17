@@ -13,10 +13,12 @@ A high-speed single-precision floating-point ODE differential equation HW accele
 
 Technical Details
 ------
-- **Numerical Algorithm:** Of the many ODE algorithms available, we chose to use the 4th-order Runge-Kutta (RK4) method for two main reasons: 1) This algorithm has 4th-order numerical stability, meaning if the step size is decreased by a factor of 2, the solution is 16-times more accurate. This allowed us to use larger step sizes while still achieving accurate results. 2) Across all scientific literature, no one has ever implemented RK4 on an FPGA. We wanted a challenge :)
-- **Single-Precision FP:** Due to resource limitations and the desire for more solvers, single-precision FP was chosen over double-precision. This significantly reduced the number of DSP slices used per solver. The FP units were Xilinx IP and used AXI Stream protocol.
-- **Pipelined Architecture:** To further decrease the number of DSP slices used per solver, the accelerator design pipelined its resources. The bottleneck of the design was calculating the acceleration vector, so we leveraged some calculation optimizations, such as implementing the fast inverse square-root algorithm into a 4-cycle operation. All of these optimizations decreased the cycle count by 16 cycles from the original design.
-- **User Application:** We connected multiple accelerators to a terminal application running the n-body simulation. Due to our resource optimizations, we could run up to 35 particles in parallel.
+- **Numerical Algorithm:** Of the many ODE algorithms available, I chose to use the 4th-order Runge-Kutta (RK4) method for two main reasons: 
+    1) This algorithm has 4th-order numerical stability, meaning if the step size is decreased by a factor of 2, the solution is 16-times more accurate. This allowed us to use larger step sizes while still achieving accurate results. 
+    2) Across all scientific literature, no one has ever implemented RK4 on an FPGA.
+- **Single-Precision FP:** Due to resource limitations and the desire for more solvers, single-precision FP was chosen over double-precision. This significantly reduced the number of DSP slices used per solver. The FP units were Xilinx IP and used the AXI Stream protocol.
+- **Pipelined Architecture:** To further decrease the number of DSP slices used per solver, the accelerator design pipelined its resources. The bottleneck of the design was calculating the acceleration vector, so I leveraged some calculation optimizations such as implementing the fast inverse square-root algorithm into a 4-cycle operation. All of these optimizations decreased the cycle count by 16 cycles from the original design.
+- **User Application:** I connected multiple accelerators to a terminal application running the n-body simulation. Due to our resource optimizations, I could run up to 35 particles in parallel.
 
 Deliverables
 ------

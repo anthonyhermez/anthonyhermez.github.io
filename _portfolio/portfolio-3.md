@@ -9,7 +9,7 @@ collection: portfolio
 
 Design Description
 ------
-A medium-range, battery-powered, laser tag game fit with 4 custom blasters, 1 hub controlling the game, and 4 vests made out of cardboard all built from scratch using the TM4C microcontroller and Eagle PCB software without exceeding a $60 budget.<br><br>
+A medium-range, battery-powered, laser tag game fit with 4 custom blasters, 1 hub controlling the game, and 4 vests made out of cardboard all built from scratch using the TM4C microcontroller and Eagle PCB software. But with one challenge&mdash;a $60 budget.<br><br>
 **Skills:** _C, Firmware, UART, PCB Design, Eagle, Microcontrollers_
 
 Technical Details
