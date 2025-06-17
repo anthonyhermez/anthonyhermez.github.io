@@ -4,7 +4,7 @@ excerpt: "A fully functioning 4-player laser tag game with a $60 budget.<br/><im
 collection: portfolio
 ---
 
-[GitHub Repo](https://github.com/ECE445L-Classroom/final-lab-tag_youre_it)
+[GitHub Repo](https://github.com/ECE445L-Classroom/final-lab-tag_youre_it)<br>
 [Go back](../)
 
 Design Description
