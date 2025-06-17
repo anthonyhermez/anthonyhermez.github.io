@@ -9,7 +9,6 @@ collection: portfolio
 Design Description
 ------
 A high-speed single-precision floating-point ODE differential equation HW accelerator on the Zynq UltraScale+ MPSoC tailored to interface with a 3-dimensional n-body physics simulation.<br><br>
-
 **Skills:** _Verilog, Xilinx Vivado, FPGAs, Linux Kernel Modules, Embedded C, Numerical Analysis_
 
 Technical Details
