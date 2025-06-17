@@ -12,7 +12,7 @@ FPGA Engineer Intern
 **Applied Research Laboratories** (Austin, TX)<br>
 June 2025 - August 2025<br>
 _VHDL, SystemVerilog, TCL, Python, FPGA, Vivado, Digital Communications_<br>
-- Designed RTL in VHDL for accelerating signal processing and digital communication applications.
+- Designed RTL in VHDL for accelerating signal processing and digital communication applications on a Zynq UltraScale+ FPGA.
 - Studied multiple Error Correcting Codes (ECCs) across code rates, BERs, and computational complexity to contribute to system design decision.
 - Automated verfication of RTL using SystemVerilog and TCL.
 
