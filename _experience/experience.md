@@ -48,7 +48,7 @@ Undergraduate Research Assistant
 ------
 **The University of Texas at Austin** (Austin, TX)<br>
 January 2022 - December 2022<br>
-_Python, Atomic Force Microscope, Magnetic Devices_<br><br>
+_Python, Atomic Force Microscope, Magnetic Devices_<br>
 - Tested ferromagnetic memristors fabricated using different 2D transition-metal dichalcogenides (TMDCs) by performing sweep voltage and magnetic field tests to analyze I-V and H-V relationships of each device.
-- Developed a data plotting Python script using Matplotlib, NumPy, and Pandas libraries that style
+- Developed a data plotting Python script using Matplotlib, NumPy, and Pandas libraries.
 - Certified in Atomic Force Microscopy (AFM) imaging.
