@@ -25,7 +25,7 @@ Current Projects
 ------
 <img src="../images/padviewofchip.png" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 300px;">
 **Pipelined Polynomial HW Accelerator**<br>
-I am developing a Python script that generates RTL in Verilog or VHDL for any polynomial function. The design leverages a numerical algorithm called _Horner's Method_ in a pipelined fashion. The FoM of the generated designs are numerical accuracy, so each generated pipeline stage scales with the output of the previous stage to avoid truncation precision loss.
+I am developing a Python script that generates RTL in Verilog or VHDL for any polynomial function. The design leverages a numerical algorithm called _Horner's Method_ in a pipelined fashion. The FoM for the generated designs is numerical accuracy, so each pipeline stage scales with the output of the previous stage to avoid truncation precision loss.
 
 **Google TPU ASIC**<br>
 Inspired by [Google TPUv1](../files/TPU%20ISCA%202017.pdf), I designed my own Tensor Processing Unit on a 476µm by 476µm ASIC using TSMC 65nm technology nodes and Cadence/Synopsys flows. I architected the TPU from scratch, creating my own 5-instruction CISC ISA, built an assembler in Python, and microarchitected all blocks of the RTL, including an NxN weight-stationary systolic array to perform matrix multiplication in SystemVerilog. I went through the entire ASIC design flow, including functional verification, synthesis, floor planning, power planning, P&R, pad placement, and signoff. I will perform post-silicon validation of the chip after the chip is manufactured.
