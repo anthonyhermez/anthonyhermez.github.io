@@ -13,7 +13,6 @@ Fall 2025
 - ASIC Design Lab 2, _ECE 382M_
 - Tools and Techniques in Computational Science, _CSE 380_
 - Tensor Methods, _CSE 396_
-- The Finite Element Method, _CSE 393_
 - Intensive Arabic 1, _ARA 601C_
 
 Spring 2025

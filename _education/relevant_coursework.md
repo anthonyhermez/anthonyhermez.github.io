@@ -15,7 +15,6 @@ Graduate Coursework
 - ASIC Design Lab 2
 - HW/SW Co-Design in High Performance Computing
 - Tensor Processing Methods
-- Finite Element Methods
 - ASIC Design Lab 1
 - Hardware Architecture for Machine Learning
 - Parallel Computer Architecture
