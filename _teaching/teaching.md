@@ -10,7 +10,7 @@ redirect_from:
 Teaching Assistant
 ------
 **Intro to Embedded Systems** (ECE 319K/H)<br>
-Graduate Teaching Assistant (F25)<br>
+Graduate Teaching Assistant (S26, F25)<br>
 Undergraduate Teaching Assistant (S25, F24, S24, S23)<br>
 _C, ARM Assembly, UART, SPI, I/O Interfacing_<br>
 [Course Website](https://users.ece.utexas.edu/~valvano/mspm0/)<br>
@@ -32,8 +32,11 @@ _Fall 2024_<br>
 _Fall 2022_, _Fall 2023_<br>
 _Awarded 2022 FIG Mentor of the Year_
 
-Talks
+Invited Talks
 ------
+**Tech Core Guest Lecturer** _Engineering Leadership (ECE 107H)_<br>
+_January 29th, 2026_<br>
+
 **Substitute Lecturer** _Intro to Embedded Systems (ECE 319K/H)_<br>
 _Spring 2025_<br>
 

@@ -12,9 +12,9 @@ _Note_: I have renamed some classes in this list to better reflect their content
 
 Graduate Coursework
 ------
+- Michroarchitecture
 - ASIC Design Lab 2
 - HW/SW Co-Design in High Performance Computing
-- Tensor Processing Methods
 - ASIC Design Lab 1
 - Hardware Architecture for Machine Learning
 - Parallel Computer Architecture

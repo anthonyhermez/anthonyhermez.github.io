@@ -8,11 +8,15 @@ This is a complete breakdown all the courses I have taken at UT Austin.
 
 [Go back](../education/)
 
+Spring 2026
+------
+- Microarchitecture, _ECE382N_
+- Intensive Arabic 2, _ARA 601D_
+
 Fall 2025
 ------
 - ASIC Design Lab 2, _ECE 382M_
 - Tools and Techniques in Computational Science, _CSE 380_
-- Tensor Methods, _CSE 396_
 - Intensive Arabic 1, _ARA 601C_
 
 Spring 2025
