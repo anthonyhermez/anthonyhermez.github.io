@@ -9,13 +9,13 @@ redirect_from:
 
 <img src="../images/IMG_4041.jpg" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 350px;">
 
-👨🏻‍💻 I’m a final year M.S. ECE student at [The University of Texas at Austin](https://www.utexas.edu/).
+👨🏻‍💻 I’m a final year M.S. ECE student at [The University of Texas at Austin](https://www.utexas.edu/). I will be starting at [IBM](https://www.ibm.com/us-en) this Fall as a Logic Designer for the High-Speed Interconnect Team in Austin, TX!
 
 🔬 In undergrad, I double majored in [ECE](https://www.ece.utexas.edu/) and [Mathematics](https://math.utexas.edu/) with a minor in [Computational Engineering](https://oden.utexas.edu/).
 
-📚 I’m currently working as an the head TA for [Intro to Embedded Systems](https://users.ece.utexas.edu/~valvano/mspm0/). Last summer I completed a FPGA internship at [Applied Research Laboratories](https://www.arlut.utexas.edu/).
+📚 I’m currently working as an the head TA for **Digital Logic Design** a part of the **Tokyo Tech** program. I was previously the head TA for [Intro to Embedded Systems](https://users.ece.utexas.edu/~valvano/mspm0/).
 
-🎻 I also play cello for the [UT University Orchestra](https://music.utexas.edu/ensembles/university-orchestra) and am learning Arabic and Spanish.
+🎻 I also played cello for the [UT University Orchestra](https://music.utexas.edu/ensembles/university-orchestra) and am learning Arabic, Spanish, and Japanese.
 
 What I do
 ======
@@ -24,11 +24,11 @@ I am passionate about advancing the frontiers of computer architecture, with a d
 Current Projects
 ------
 <img src="../images/padviewofchip.png" alt="My Avatar" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 300px;">
-**Pipelined Polynomial HW Accelerator**<br>
-I am developing a Python script that generates RTL in Verilog or VHDL for any polynomial function. The design leverages a numerical algorithm called _Horner's Method_ in a pipelined fashion. The FoM for the generated designs is numerical accuracy, so each pipeline stage scales with the output of the previous stage to avoid truncation precision loss.
+**Structural Verilog x86 CPU Implementation**<br>
+My friends and I designed a custom x86 implementation from architectural specification to functional verifiation using only structural gate primatives in three months. Our processor features a 6-stage pipeline with a Banked I-Cache, Next-line Prefetcher, G-Share Branch Predictor, Non-blocking Writeback D-Cache, Non-Stalling Writeback Stage, Double-Clocked Address and Data Bus, and an advanced D-Cache replacement policy. Moreover, we interface I/O devices such as a Keyboard and DMA, and support interrupt and exception handling. This was for our [Microarchitecture](https://users.ece.utexas.edu/~patt/26s.382N/) class with Dr. Yale Patt.
 
-**Google TPU ASIC**<br>
-Inspired by [Google TPUv1](../files/TPU%20ISCA%202017.pdf), I designed my own Tensor Processing Unit on a 476µm by 476µm ASIC using TSMC 65nm technology nodes and Cadence/Synopsys flows. I architected the TPU from scratch, creating my own 5-instruction CISC ISA, built an assembler in Python, and microarchitected all blocks of the RTL, including an NxN weight-stationary systolic array to perform matrix multiplication in SystemVerilog. I went through the entire ASIC design flow, including functional verification, synthesis, floor planning, power planning, P&R, pad placement, and signoff. I will perform post-silicon validation of the chip after the chip is manufactured.
+**Taped-out Google TPU ASIC**<br>
+Inspired by [Google TPUv1](../files/TPU%20ISCA%202017.pdf), I designed my own Tensor Processing Unit on a 476µm by 476µm ASIC using TSMC 65nm technology nodes and Cadence/Synopsys flows. I architected the TPU from scratch, creating my own 5-instruction CISC ISA, built an assembler in Python, and microarchitected all blocks of the RTL, including an NxN weight-stationary systolic array to perform matrix multiplication in SystemVerilog. I went through the entire ASIC design flow, including functional verification, synthesis, floor planning, power planning, P&R, pad placement, signoff, and post-silicon validation. Currently I am interfacing the chip with a ZedBoard for a full-stack software-to-silicon demo.
 
 Selected Experience
 ------
