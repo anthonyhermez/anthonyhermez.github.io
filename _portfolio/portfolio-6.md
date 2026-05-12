@@ -1,6 +1,6 @@
 ---
-title: "Discount Pac-Man"
-excerpt: "A full-stack implementation of retro Pac-Man.<br/><img src='/images/pac_man.jpg' width='500'>"
+title: "High-Speed Arithmetic Logic Unit"
+excerpt: "Transitor-level implementation of a 22-instruction ALU.<br/><img src='/images/alu_pnr.png' width='500'>"
 collection: portfolio
 ---
 

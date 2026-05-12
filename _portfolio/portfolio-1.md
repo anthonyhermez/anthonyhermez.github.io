@@ -1,27 +1,25 @@
 ---
-title: "Tensor Processing Unit ASIC"
-excerpt: "An implementation of Google's TPUv1 from RTL to GDSII on a low-power ASIC.<br/><img src='/images/padviewofchip.png' width='500'>"
+title: "The Patt Processor"
+excerpt: "A custom structural Verilog implementation of the x86.<br/><img src='/images/pipeline_summary.jfif' width='500'>"
 collection: portfolio
 ---
 
-[GitHub Repo](https://github.com/anthonyhermez/Google-TPU)<br>
 [Go back](../)
 
 Design Description
 ------
-I designed my own Tensor Processing Unit from RTL to GDSII on a 476µm by 476µm ASIC using TSMC 65nm technology nodes and Cadence/Synopsys flows. I architected the TPU from scratch, creating my own 5-instruction CISC ISA. I also built an assembler in Python and microarchitected all blocks of the RTL, including an NxN weight-stationary systolic array to perform matrix multiplication in SystemVerilog. I went through the entire ASIC design flow, including functional verification, synthesis, floor planning, power planning, P&R, pad placement, and signoff. The chip is getting manufactured, to which I will perform post-silicon validation of the chip.<br><br>
-**Skills:** _ASIC Design Flow, RTL Design, Verification, SystemVerilog, Genus, Innovus, Tempus, Voltus, Virtuoso, Verdi_
+Named after our professor Dr. Yale Patt, my friends and I designed a [custom x86 implementation](/files/x86_uarch_sp26.pdf) from architectural specification to functional verifiation using only structural gate primatives in three months. Our processor features a 6-stage pipeline with a Banked I-Cache, Next-line Prefetcher, G-Share Branch Predictor, Non-blocking Writeback D-Cache, Non-Stalling Writeback Stage, Double-Clocked Address and Data Bus, and an advanced D-Cache replacement policy. Moreover, we interface I/O devices such as a Keyboard and DMA, and support interrupt and exception handling.<br><br>
+**Skills:** _Microarchitecture, Computer Architecture, RTL Design, Verification_
 
 Deliverables
 ------
-- [Design Document](../../files/Full-stack%20TPU%20Implementation%20and%20Integration%20Analysis%20of%20FPGA%20vs.%20ASIC.docx.pdf)
-- _See the GitHub for more system and microarchitectural details._
+- [Design Document](../../files/x86_uarch_sp26.pdf)
 
-Citations
+Project Specification
 ------
-- [Google TPUv1](../../files/TPU%20ISCA%202017.pdf)
-- [Understanding Matrix Multiplication on a Weight-Stationary Systolic Architecture](https://telesens.co/2018/07/30/systolic-architectures/)
+- [Course Website](https://users.ece.utexas.edu/~patt/26s.382N/)
+
 
 Acknowledgments
 ------
-Thank you Vivek for helping with the TPU Assembler.
+Thank you to Jiwoo and Roy for the countless hours spent to make this project happen!.

@@ -1,28 +1,34 @@
 ---
-title: "Laser Tag on a Budget"
-excerpt: "A fully functioning 4-player laser tag game with a $60 budget.<br/><img src='/images/laser_tag.jpg' width='500'>"
+title: "Ordinary Differential Equation HW Accelerator"
+excerpt: "ODE HW Accelerator on a Zynq UltraScale+ FPGA interfaced with physics application.<br/><img src='/images/ode_accelerator_vivado.png' width='500'>"
 collection: portfolio
 ---
 
-[GitHub Repo](https://github.com/ECE445L-Classroom/final-lab-tag_youre_it)<br>
 [Go back](../)
 
 Design Description
 ------
-A medium-range, battery-powered, laser tag game fit with 4 custom blasters, 1 hub controlling the game, and 4 vests made out of cardboard all built from scratch using the TM4C microcontroller and Eagle PCB software. But with one challenge&mdash;a $60 budget.<br><br>
-**Skills:** _C, Firmware, UART, PCB Design, Eagle, Microcontrollers_
+A high-speed single-precision floating-point ODE differential equation HW accelerator on the Zynq UltraScale+ MPSoC tailored to interface with a 3-dimensional n-body physics simulation.<br><br>
+**Skills:** _Verilog, Xilinx Vivado, FPGAs, Linux Kernel Modules, Embedded C, Numerical Analysis_
 
 Technical Details
 ------
-- **The Hub:** Equipped with an LCD display and RF antenna. A pregame lobby that allows the players to connect upon request. Can support up to 16 players per game. 4 game modes: 1-min 1v1, 3-min 1v1, 1-min teams, 3-min teams. When a player is connected, they are given a unique 4-bit ID, color, and player number, which are displayed upon a successful connection. When a game begins, the Hub will periodically update the score, current leaderboard, and time for all connected players via RF.
-- **The Player:** Equipped with 3D printed IR blaster with a trigger switch, high-current narrow-beam IR LED, LCD display, RF antenna, and 8-ohm speaker. Upon powering up, a player will connect via RF. When a player connects, they are shown their player number and color. When the game begins, the LCD shows the player's score, rank, and game time (supplied by the Hub). Every time a player fires, their unique ID is encoded in their IR blast. The hit player will inform the Hub what 4-bit ID hit them. If the 4-bit ID is one of the registered players, then the Hub will update the global score and leaderboard. A sound is played every time a player fires or gets hit. At the end of the game, the final score and rank are displayed on the player's screen and the Hub is equipped to start another game!
+- **Numerical Algorithm:** Of the many ODE algorithms available, I chose to use the 4th-order Runge-Kutta (RK4) method for two main reasons: 
+    1) This algorithm has 4th-order numerical stability, meaning if the step size is decreased by a factor of 2, the solution is 16-times more accurate. This allowed us to use larger step sizes while still achieving accurate results. 
+    2) Across all scientific literature, no one has ever implemented RK4 on an FPGA.
+- **Single-Precision FP:** Due to resource limitations and the desire for more solvers, single-precision FP was chosen over double-precision. This significantly reduced the number of DSP slices used per solver. The FP units were Xilinx IP and used the AXI Stream protocol.
+- **Pipelined Architecture:** To further decrease the number of DSP slices used per solver, the accelerator design pipelined its resources. The bottleneck of the design was calculating the acceleration vector, so I leveraged some calculation optimizations such as implementing the fast inverse square-root algorithm into a 4-cycle operation. All of these optimizations decreased the cycle count by 16 cycles from the original design.
+- **User Application:** I connected multiple accelerators to a terminal application running the n-body simulation. Due to our resource optimizations, I could run up to 35 particles in parallel.
 
 Deliverables
 ------
-- My team won the class design competition for Spring 2023!
-- [Photos from the class project showcase](https://www.flickr.com/photos/utece/albums/72177720307763148/)
-- _See the GitHub for hardware and software files._
+- [Final Presentation Slides](../../files/ode_accelerator_slides.pptx)
+
+Citations
+------
+- [Runge-Kutta Methods](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods)
+- Sauer, Timothy. Numerical Analysis. 3rd ed., Pearson, 2019.
 
 Acknowledgments
 ------
-Thank you Avyay, Vivek, and Vincent for being great teammates!
+Thank you Francisco for helping with the physics application software.

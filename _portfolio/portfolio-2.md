@@ -1,34 +1,27 @@
 ---
-title: "Ordinary Differential Equation HW Accelerator"
-excerpt: "ODE HW Accelerator on a Zynq UltraScale+ FPGA interfaced with physics application.<br/><img src='/images/ode_accelerator_vivado.png' width='500'>"
+title: "Tensor Processing Unit ASIC"
+excerpt: "An implementation of Google's TPUv1 from RTL to GDSII on a low-power ASIC.<br/><img src='/images/padviewofchip.png' width='500'>"
 collection: portfolio
 ---
 
+[GitHub Repo](https://github.com/anthonyhermez/Google-TPU)<br>
 [Go back](../)
 
 Design Description
 ------
-A high-speed single-precision floating-point ODE differential equation HW accelerator on the Zynq UltraScale+ MPSoC tailored to interface with a 3-dimensional n-body physics simulation.<br><br>
-**Skills:** _Verilog, Xilinx Vivado, FPGAs, Linux Kernel Modules, Embedded C, Numerical Analysis_
-
-Technical Details
-------
-- **Numerical Algorithm:** Of the many ODE algorithms available, I chose to use the 4th-order Runge-Kutta (RK4) method for two main reasons: 
-    1) This algorithm has 4th-order numerical stability, meaning if the step size is decreased by a factor of 2, the solution is 16-times more accurate. This allowed us to use larger step sizes while still achieving accurate results. 
-    2) Across all scientific literature, no one has ever implemented RK4 on an FPGA.
-- **Single-Precision FP:** Due to resource limitations and the desire for more solvers, single-precision FP was chosen over double-precision. This significantly reduced the number of DSP slices used per solver. The FP units were Xilinx IP and used the AXI Stream protocol.
-- **Pipelined Architecture:** To further decrease the number of DSP slices used per solver, the accelerator design pipelined its resources. The bottleneck of the design was calculating the acceleration vector, so I leveraged some calculation optimizations such as implementing the fast inverse square-root algorithm into a 4-cycle operation. All of these optimizations decreased the cycle count by 16 cycles from the original design.
-- **User Application:** I connected multiple accelerators to a terminal application running the n-body simulation. Due to our resource optimizations, I could run up to 35 particles in parallel.
+I designed my own Tensor Processing Unit from RTL to GDSII on a 476µm by 476µm ASIC using TSMC 65nm technology nodes and Cadence/Synopsys flows. I architected the TPU from scratch, creating my own 5-instruction CISC ISA. I also built an assembler in Python and microarchitected all blocks of the RTL, including an NxN weight-stationary systolic array to perform matrix multiplication in SystemVerilog. I went through the entire ASIC design flow, including functional verification, synthesis, floor planning, power planning, P&R, pad placement, and signoff. The chip is getting manufactured, to which I will perform post-silicon validation of the chip.<br><br>
+**Skills:** _ASIC Design Flow, RTL Design, Verification, SystemVerilog, Genus, Innovus, Tempus, Voltus, Virtuoso, Verdi_
 
 Deliverables
 ------
-- [Final Presentation Slides](../../files/ode_accelerator_slides.pptx)
+- [Design Document](../../files/Full-stack%20TPU%20Implementation%20and%20Integration%20Analysis%20of%20FPGA%20vs.%20ASIC.docx.pdf)
+- _See the GitHub for more system and microarchitectural details._
 
 Citations
 ------
-- [Runge-Kutta Methods](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods)
-- Sauer, Timothy. Numerical Analysis. 3rd ed., Pearson, 2019.
+- [Google TPUv1](../../files/TPU%20ISCA%202017.pdf)
+- [Understanding Matrix Multiplication on a Weight-Stationary Systolic Architecture](https://telesens.co/2018/07/30/systolic-architectures/)
 
 Acknowledgments
 ------
-Thank you Francisco for helping with the physics application software.
+Thank you Vivek for helping with the TPU Assembler.
