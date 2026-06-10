@@ -9,6 +9,10 @@ redirect_from:
 
 Teaching Assistant
 ------
+**Digital Logic Design** (ECE 316)<br>
+Graduate Teaching Assistant (Su26)<br>
+_Verilog, FPGAs, DFT, Microarchitecture_<br>
+
 **Intro to Embedded Systems** (ECE 319K/H)<br>
 Graduate Teaching Assistant (S26, F25)<br>
 Undergraduate Teaching Assistant (S25, F24, S24, S23)<br>
@@ -23,6 +27,8 @@ _Technical Writing, Engineering Ethics, Professional Development_<br>
 Undergraduate Teaching Assistant (F22)<br>
 _Microarchitecture, Assembly, Digital Logic_
 
+**Received Top Teaching Assistant Award by the Chandra Family Department of Electrical and Computer Engineering**
+
 Mentorships
 ------
 **ECE Amplify Mentor**<br>
@@ -34,6 +40,9 @@ _Awarded 2022 FIG Mentor of the Year_
 
 Invited Talks
 ------
+**Substitute Lecturer** _Intro to Embedded Systems (ECE 319K/H)_<br>
+_Spring 2026_<br>
+
 **Tech Core Guest Lecturer** _Engineering Leadership (ECE 107H)_<br>
 _January 29th, 2026_<br>
 
